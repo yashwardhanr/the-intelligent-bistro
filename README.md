@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# BistroMind AI — The Intelligent Bistro
 
-# Run and deploy your AI Studio app
+BistroMind AI is a high-fidelity mobile restaurant ordering experience built for **The Intelligent Bistro** challenge.  
+It combines a polished **React Native Expo** mobile app with a **Node.js Express backend**, allowing users to browse a menu, manage a cart, and place or modify orders through a conversational AI assistant.
 
-This contains everything you need to run your app locally.
+The key idea is simple: the AI is not just a chatbot — it understands restaurant-ordering intent and converts natural language into structured cart actions.
 
-View your app in AI Studio: https://ai.studio/apps/6d0d8c60-6b94-4e3a-949b-f68bf39433a7
+---
 
-## Run Locally
+## Demo Highlights
 
-**Prerequisites:**  Node.js
+- Browse a premium bistro-style menu
+- Add dishes manually from the UI
+- Manage cart quantities, removals, and totals
+- Use the AI Maître D to update the cart conversationally
+- Convert user messages into structured JSON actions
+- Run a Node.js backend for menu and AI order processing
+- Works with Expo Go on iPhone/Android
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+
+### Mobile App
+
+- React Native
+- Expo
+- TypeScript
+- Expo Go
+- React Native state management with hooks
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+- AI / rule-based intent parsing fallback
+- Structured cart action responses
+
+---
+
+## Project Structure
+
+```txt
+the-intelligent-bistro/
+  backend/
+    package.json
+    server.js
+    README.md
+
+  mobile/
+    App.tsx
+    app.json
+    package.json
+    tsconfig.json
+    assets/
+
+  README.md
