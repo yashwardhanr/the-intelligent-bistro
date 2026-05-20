@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "BistroMind AI",
+    "slug": "bistromind-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bistromind.ai"
+    },
+    "android": {
+      "package": "com.bistromind.ai"
+    }
+  }
+}

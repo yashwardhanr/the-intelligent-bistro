@@ -1,0 +1,6 @@
+{
+  "name": "The Intelligent Bistro",
+  "description": "An elegant AI-powered restaurant ordering experiences with taste profiling, smart recommendations, other modifiers, and interactive chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
